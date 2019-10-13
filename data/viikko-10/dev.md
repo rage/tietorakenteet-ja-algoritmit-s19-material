@@ -8,6 +8,41 @@ Viikon 10 tehtävien deadline: su 24.11. klo 23:59
 
 ## Tehtävät
 
+<programming-exercise name='1. Saavutettavuus' tmcname='viikko10-Viikko10Tehtava1'>
+
+Tietoverkko muodostuu _n_ koneesta,
+jotka on numeroitu 1, 2, ..., _n_.
+Verkossa on joukko yhteyksiä,
+joista jokainen on kahden koneen välinen.
+Tehtäväsi on selvittää, monenko koneen kanssa
+tietty kone voi viestiä.
+
+Tee luokka `Saavutettavuus`, jossa on seuraavat metodit:
+
+* `Saavutettavuus(int n)`: koneiden määrä annetaan konstruktorissa
+* `void lisaaYhteys(int a, int b)`: lisää yhteyden koneiden `a` ja `b` välille
+* `int laske(int x)`: ilmoittaa, monenko koneen kanssa kone `x` voi viestiä
+
+Rajat:
+
+- 1 &le; `n` &le; 5000
+- ensin metodia `lisaaYhteys` kutsutaan enintään 10<sup>5</sup> kertaa
+- lopuksi kutsutaan kerran metodia `laske`
+
+Seuraava koodi esittelee luokan käyttämistä:
+
+```java
+Saavutettavuus s = new Saavutettavuus(6);
+s.lisaaYhteys(1,2);
+s.lisaaYhteys(2,3);
+s.lisaaYhteys(1,3);
+s.lisaaYhteys(3,4);
+s.lisaaYhteys(5,6);
+System.out.println(s.laske(1)); // 3
+```
+
+</programming-exercise>
+
 <programming-exercise name='2. Komponentit' tmcname='viikko10-Viikko10Tehtava2'>
 
 Tietoverkko muodostuu _n_ koneesta,
