@@ -64,7 +64,7 @@ System.out.println(m.muodosta(3,2)); // [AAA, AAB, ABA, ABB, BAA, BAB, BBA, BBB]
 
 <programming-exercise name='3. Osajoukot' tmcname='viikko08-Viikko08Tehtava3'>
 
-Annettuna on taulukko lukuja ja tehtäväsi on selvittää,
+Annettuna on taulukko, jossa on `n` lukua, ja tehtäväsi on selvittää,
 monellako tavalla voit valita osajoukon luvuista niin,
 että summa on `x`.
 
@@ -75,7 +75,8 @@ Tee luokka `Osajoukot`, jossa on seuraavat metodit:
 Rajat:
 
 - 1 &le; `n` &le; 16
-- jokainen luku on välillä 1...10<sup>9</sup>
+- jokainen taulukon luku on välillä 1...10<sup>9</sup>
+- 1 &le; `x` &le; 10<sup>9</sup>
 
 Seuraava koodi esittelee luokan käyttämistä:
 
