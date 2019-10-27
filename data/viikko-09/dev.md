@@ -163,6 +163,7 @@ Kahden pelaajan pelin alussa pinossa on `n` kolikkoa.
 Joka siirrolla pelaaja jakaa pinon kahdeksi epätyhjäksi pinoksi
 ja poistaa vähemmän kolikoita sisältävän pinon pelistä
 (jos pinoissa on yhtä monta kolikkoa, voi poistaa kumman tahansa).
+
 Pelaaja voittaa pelin, jos toinen pelaaja ei voi tehdä siirtoa.
 Tehtäväsi on selvittää, kumpi pelaaja voittaa,
 kun molemmat pelaavat optimaalisesti.
