@@ -159,29 +159,20 @@ System.out.println(t.laske(84)); // 1
 
 <programming-exercise name='6. Peli' tmcname='viikko09-Viikko09Tehtava6'>
 
-Tarkastellaan kahden pelaajan peliä,
-jossa pinossa on aluksi `n` kolikkoa.
-Pelaajat siirtävät vuorotellen,
-ja joka siirrolla pelaaja jakaa pinon kahdeksi
-pinoksi, joista molemmissa on ainakin yksi kolikko.
-Tämän jälkeen vähemmän kolikoita sisältävä pino
-poistetaan pelistä (jos pinoissa on yhtä monta kolikkoa,
-kumpi tahansa poistetaan).
-Pelaaja häviää pelin, jos hän ei pysty
-tekemään mitään siirtoa.
+Kahden pelaajan pelin alussa pinossa on `n` kolikkoa.
+Joka siirrolla pelaaja jakaa pinon kahdeksi epätyhjäksi pinoksi
+ja poistaa vähemmän kolikoita sisältävän pinon pelistä
+(jos pinoissa on yhtä monta kolikkoa, voi poistaa kumman tahansa).
+Pelaaja voittaa pelin, jos toinen pelaaja ei voi tehdä siirtoa.
 Tehtäväsi on selvittää, kumpi pelaaja voittaa,
 kun molemmat pelaavat optimaalisesti.
 
 Esimerkiksi jos pinossa on alussa 5 kolikkoa,
-aloittaja voi jakaa sen kahdeksi pinoksi,
-joissa on 2 ja 3 kolikkoa.
-Näistä 3 kolikkoa sisältävä pino jää peliin.
-Tämän jälkeen vastustajan ainoa mahdollisuus
-on muodostaa pinot,
-joissa on 1 ja 2 kolikkoa,
-ja peliin jää 2 kolikkoa sisältävä pino.
-Nyt aloittaja voittaa muodostamalla
-kaksi 1 kolikon pinoa, joista toinen jää peliin.
+aloittaja voittaa varmasti,
+koska hän voi muodostaa 2 ja 3 kolikon pinot,
+joista peliin jää 3 kolikon pino.
+Tämän jälkeen vastustajalla on vain yksi
+mahdollinen siirto, joka johtaa häviöön.
 
 Tee luokka `Peli`, jossa on seuraavat metodit:
 
