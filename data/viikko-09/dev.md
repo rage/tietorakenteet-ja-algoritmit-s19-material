@@ -159,35 +159,49 @@ System.out.println(t.laske(84)); // 1
 
 <programming-exercise name='6. Peli' tmcname='viikko09-Viikko09Tehtava6'>
 
-Kahden pelaajan pelissä on neljä pinoa ja jokaisessa
-aluksi jokin määrä kolikoita.
+Tarkastellaan kahden pelaajan peliä,
+jossa pinossa on aluksi `n` kolikkoa.
 Pelaajat siirtävät vuorotellen,
-ja joka siirrolla pelaaja valitsee jonkin pinon,
-jossa on vielä kolikoita,
-ja poistaa siitä minkä tahansa määrän kolikoita.
-Pelin voittaa se, joka tekee viimeisen siirron.
+ja joka siirrolla pelaaja jakaa pinon kahdeksi
+pinoksi, joista molemmissa on ainakin yksi kolikko.
+Tämän jälkeen vähemmän kolikoita sisältävä pino
+poistetaan pelistä (jos pinoissa on yhtä monta kolikkoa,
+kumpi tahansa poistetaan).
+Pelaaja häviää pelin, jos hän ei pysty
+tekemään mitään siirtoa.
 Tehtäväsi on selvittää, kumpi pelaaja voittaa,
-jos molemmat pelaavat optimaalisesti.
+kun molemmat pelaavat optimaalisesti.
+
+Esimerkiksi jos pinossa on alussa 5 kolikkoa,
+aloittaja voi jakaa sen kahdeksi pinoksi,
+joissa on 2 ja 3 kolikkoa.
+Näistä 3 kolikkoa sisältävä pino jää peliin.
+Tämän jälkeen vastustajan ainoa mahdollisuus
+on muodostaa pinot,
+joissa on 1 ja 2 kolikkoa,
+ja peliin jää 2 kolikkoa sisältävä pino.
+Nyt aloittaja voittaa muodostamalla
+kaksi 1 kolikon pinoa, joista toinen jää peliin.
 
 Tee luokka `Peli`, jossa on seuraavat metodit:
 
-* `int voittaja(int a, int b, int c, int d)`: ilmoittaa voittajan
+* `int voittaja(int n)`: ilmoittaa voittajan
 (1 = aloittaja, 2 = vastustaja),
-kun pinoissa on `a`, `b`, `c` ja `d` kolikkoa
+kun pinossa on aluksi `n` kolikkoa
 
 Rajat:
 
-- 1 &le; `a`, `b`, `c`, `d` &le; 30
+- 1 &le; `n` &le; 10<sup>9</sup>
 - metodia kutsutaan enintään 10<sup>6</sup> kertaa yhdessä testissä
 
 Seuraava koodi esittelee luokan käyttämistä:
 
 ```java
 Peli p = new Peli();
-System.out.println(p.voittaja(1,1,1,1)); // 2
-System.out.println(p.voittaja(1,1,1,2)); // 1
-System.out.println(p.voittaja(1,2,3,4)); // 1
-System.out.println(p.voittaja(12,7,29,22)); // 2
+System.out.println(p.voittaja(2)); // 1
+System.out.println(p.voittaja(3)); // 2
+System.out.println(p.voittaja(5)); // 1
+System.out.println(p.voittaja(7)); // 2
 ```
 
 </programming-exercise>
