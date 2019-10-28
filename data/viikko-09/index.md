@@ -134,6 +134,10 @@ Kurssilla on 14 viikkoa, joista jokaisella on 6 tehtävää.
 Lisäksi jokaisella viikolla tulee ratkoa ainakin 3 tehtävää.
 Monellako tavalla voit ratkoa tasan `x` tehtävää kurssilla?
 
+Huom! Tässä tarkastellaan vain tehtävien määrää,
+eli kaksi tapaa ovat erilaiset,
+jos jollakin viikolla on ratkottu eri määrä tehtäviä.
+
 Tee luokka `Tehtavat`, jossa on seuraavat metodit:
 
 * `long laske(int x)`: laskee tapojen määrän
