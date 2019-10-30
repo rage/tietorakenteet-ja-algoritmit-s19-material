@@ -8,15 +8,6 @@ Viikon 3 tehtävien deadline: su 29.9. klo 23:59
 
 ## Tehtävät
 
-Tämän viikon tehtävissä 1–3 tavoitteena on ratkaista tehtävä ajassa
-O(n log n) järjestämisen avulla.
-Javassa on valmiita metodeita järjestämiseen (kuten Arrays.sort),
-joita kannattaa hyödyntää.
-Tehtävissä 4–5 sinun tulee toteuttaa oma järjestämisalgoritmi
-ja verrata sitä Javan valmiiseen metodiin.
-Tehtävä 6 on vaikeampi tehtävä, jossa tutustutaan lähemmin
-inversioiden ominaisuuksiin.
-
 <programming-exercise name='1. Pienin ero' tmcname='viikko03-Viikko03Tehtava1'>
 
 Annettuna on taulukko, jossa on `n` kokonaislukua.
