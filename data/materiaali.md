@@ -31,6 +31,8 @@ Luvussa 15 on NP-ongelmiin liittyvää tietoa, joka ei kuulu kurssin alueeseen.
   (luentosalin videointijärjestelmä ei toiminut)
 - Viikko 7: [videotallenne](https://www.helsinki.fi/en/unitube/video/e706c254-8961-4605-b1a1-c15901ee57af),
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento7/)
+- Viikko 8: [videotallenne](https://www.helsinki.fi/en/unitube/video/90b312ce-e73e-4994-9c28-f5fcddc55521),
+  [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento8/)
 
 ## Lisämateriaalia
 
