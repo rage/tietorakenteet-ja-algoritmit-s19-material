@@ -10,10 +10,10 @@ Viikon 9 tehtävien deadline: su 17.11. klo 23:59
 
 <programming-exercise name='1. Nopanheitto' tmcname='viikko09-Viikko09Tehtava1'>
 
-Tehtäväsi on laskea, monellako tavalla voit saada summan `x`
+Tehtäväsi on laskea, monellako tavalla voit saada summan `n`
 heittämällä yhden tai useamman kerran noppaa.
 Jokainen nopan heitto tuottaa silmäluvun 1–6.
-Esimerkiksi jos `x` = 4, tapoja on kaikkiaan 8:
+Esimerkiksi jos `n` = 4, tapoja on kaikkiaan 8:
 [1,1,1,1], [1,1,2], [1,2,1], [2,1,1], [2,2], [1,3], [3,1] ja [4].
 
 Tee luokka `Nopanheitto`, jossa on seuraavat metodit:
