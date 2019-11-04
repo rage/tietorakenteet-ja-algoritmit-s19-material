@@ -13,7 +13,8 @@ Viikon 10 tehtävien deadline: su 24.11. klo 23:59
 Tietoverkko muodostuu _n_ koneesta,
 jotka on numeroitu 1, 2, ..., _n_.
 Verkossa on joukko yhteyksiä,
-joista jokainen on kahden koneen välinen.
+joista kunkin kautta voi lähettää tietoa
+molempiin suuntiin kahden koneen välillä.
 Tehtäväsi on selvittää, monenko koneen kanssa
 tietty kone voi viestiä.
 
@@ -48,7 +49,8 @@ System.out.println(s.laske(1)); // 3
 Tietoverkko muodostuu _n_ koneesta,
 jotka on numeroitu 1, 2, ..., _n_.
 Verkossa on joukko yhteyksiä,
-joista jokainen on kahden koneen välinen.
+joista kunkin kautta voi lähettää tietoa
+molempiin suuntiin kahden koneen välillä.
 Kaksi konetta kuuluvat samaan komponenttiin,
 jos niiden välillä voi viestiä yhteyksiä käyttäen.
 Tehtäväsi on laskea verkon komponenttien määrä.
@@ -83,7 +85,8 @@ System.out.println(k.laske()); // 2
 
 Sinulle annetaan tiedot `n` kaupungin välisistä lentoyhteyksistä.
 Kaupungit on numeroitu 1, 2, ..., `n`,
-ja jokainen yhteys on kahden kaupungin välinen.
+ja jokainen yhteys yhdistää kaksi kaupunkia ja
+sitä voi kulkea molempiin suuntiin.
 Kun haluat matkustaa kaupungista `x` kaupunkiin `y`,
 mikä on pienin mahdollinen määrä välilaskuja?
 
@@ -121,7 +124,8 @@ System.out.println(l.laske(1,6)); // 2
 Tietoverkko muodostuu _n_ koneesta,
 jotka on numeroitu 1, 2, ..., _n_.
 Verkossa on joukko yhteyksiä,
-joista jokainen on kahden koneen välinen.
+joista kunkin kautta voi lähettää tietoa
+molempiin suuntiin kahden koneen välillä.
 Sinulle annetaan joukko konepareja
 ja tehtäväsi on tarkastaa jokaisesta,
 voiko niiden välillä viestiä yhteyksiä käyttäen.
