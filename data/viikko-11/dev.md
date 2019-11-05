@@ -4,7 +4,7 @@ title: 'Viikko 11: Lyhimmät polut'
 overview: true
 ---
 
-Viikon 11 tehtävien deadline: su 31.11. klo 23:59
+Viikon 11 tehtävien deadline: su 1.12. klo 23:59
 
 ## Tehtävät
 
