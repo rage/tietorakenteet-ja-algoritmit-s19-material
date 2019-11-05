@@ -10,8 +10,8 @@ Viikon 10 tehtävien deadline: su 24.11. klo 23:59
 
 <programming-exercise name='1. Saavutettavuus' tmcname='viikko10-Viikko10Tehtava1'>
 
-Tietoverkko muodostuu _n_ koneesta,
-jotka on numeroitu 1, 2, ..., _n_.
+Tietoverkko muodostuu `n` koneesta,
+jotka on numeroitu 1, 2, ..., `n`.
 Verkossa on joukko yhteyksiä,
 joista kunkin kautta voi lähettää tietoa
 molempiin suuntiin kahden koneen välillä.
@@ -46,8 +46,8 @@ System.out.println(s.laske(1)); // 3
 
 <programming-exercise name='2. Komponentit' tmcname='viikko10-Viikko10Tehtava2'>
 
-Tietoverkko muodostuu _n_ koneesta,
-jotka on numeroitu 1, 2, ..., _n_.
+Tietoverkko muodostuu `n` koneesta,
+jotka on numeroitu 1, 2, ..., `n`.
 Verkossa on joukko yhteyksiä,
 joista kunkin kautta voi lähettää tietoa
 molempiin suuntiin kahden koneen välillä.
@@ -121,8 +121,8 @@ System.out.println(l.laske(1,6)); // 2
 
 <programming-exercise name='4. Viestintä' tmcname='viikko10-Viikko10Tehtava4'>
 
-Tietoverkko muodostuu _n_ koneesta,
-jotka on numeroitu 1, 2, ..., _n_.
+Tietoverkko muodostuu `n` koneesta,
+jotka on numeroitu 1, 2, ..., `n`.
 Verkossa on joukko yhteyksiä,
 joista kunkin kautta voi lähettää tietoa
 molempiin suuntiin kahden koneen välillä.
