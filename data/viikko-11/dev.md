@@ -89,26 +89,30 @@ System.out.println(l.muodosta(1,5)); // [1, 2, 4, 5]
 
 </programming-exercise>
 
-<quiz id=""></quiz>
+<quiz id="af0a9a8b-8b64-4012-b076-e7634dfa2a62"></quiz>
 
 <programming-exercise name='4. Kierrokset' tmcname='viikko11-Viikko11Tehtava4'>
 
 Tehtäväsi on rakentaa suunnattu painotettu verkko,
 jossa on 100 solmua (numeroitu 1, 2, ..., 100)
 ja jossa kurssikirjan
-mukainen Bellman–Fordin algoritmi suorittaa
+mukainen Bellmanin ja Fordin algoritmi suorittaa
 tasan `x` kierrosta,
 kun haetaan lyhimpiä polkuja solmusta 1 alkaen.
+
+Huom! Tässä lasketaan mukaan myös viimeinen kierros,
+jossa mikään etäisyys ei enää muutu.
 
 Tee luokka `Kierrokset`, jossa on seuraavat metodit:
 
 * `ArrayList<Kaari> muodosta(int x)`:
-  palauttaa kaarilistan, jonka mukaisesti Bellman–Fordin
+  palauttaa kaarilistan, jonka mukaisesti Bellmanin ja Fordin
   algoritmi käy läpi kaaria
 
 Rajat:
 
 - 1 &le; `x` &le; 100
+- jokaisen kaaren pituuden tulee olla välillä 1...1000
 - verkossa saa olla enintään 10<sup>5</sup> kaarta
 
 Luokka `Kaari` on annettu tehtäväpohjassa.
@@ -130,9 +134,9 @@ System.out.println(a); // [(1,2,5), (2,3,3), (3,4,4), (1,3,7)]
 Annettuna on suunnattu painotettu verkko
 ja tehtäväsi on selvittää,
 onko solmusta 1 solmuun `n` olemassa lyhintä polkua.
-Lyhin polku on olemassa,
-jos polun pituudella on jokin alaraja
-(eli ei voi muodostaa polkua, jonka osana on negatiivinen sykli).
+Lyhintä polkua ei ole olemassa,
+jos joko solmusta 1 ei pääse solmuun `n`
+tai polkua voi lyhentää loputtomasti.
 
 Tee luokka `OnkoPolkua`, jossa on seuraavat metodit:
 
@@ -162,8 +166,8 @@ System.out.println(x.tutki()); // true
 OnkoPolkua y = new OnkoPolkua(4);
 y.lisaaKaari(1,2,1);
 y.lisaaKaari(2,3,1);
-y.lisaaKaari(2,4,-4);
-y.lisaaKaari(4,2,5);
+y.lisaaKaari(2,4,-5);
+y.lisaaKaari(4,2,4);
 System.out.println(y.tutki()); // false
 ```
 
@@ -173,7 +177,7 @@ System.out.println(y.tutki()); // false
 
 Tehtäväsi on rakentaa suunnattu painotettu verkko,
 jossa on 100 solmua (numeroitu 1, 2, ..., 100)
-ja jossa solmusta 1 solmuun 100 on tasan `x`
+ja solmusta 1 solmuun 100 on tasan `x`
 erilaista lyhintä polkua.
 
 Tee luokka `MontaPolkua`, jossa on seuraavat metodit:
@@ -193,9 +197,8 @@ joka täyttää tehtävänannon vaatimukset.
 Seuraava koodi esittelee luokan käyttämistä:
 
 ```java
-Kierrokset k = new Kierrokset();
-ArrayList<Kaari> a = k.muodosta(2);
-System.out.println(a); // [(1,2,1),(2,100,2),(1,3,2),(3,100,1)]
+MontaPolkua m = new MontaPolkua();
+System.out.println(m.muodosta(2)); // [(1,2,1), (2,100,2), (1,3,2), (3,100,1)]
 ```
 
 </programming-exercise>
