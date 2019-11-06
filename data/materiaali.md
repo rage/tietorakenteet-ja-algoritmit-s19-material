@@ -33,6 +33,9 @@ Luvussa 15 on NP-ongelmiin liittyvää tietoa, joka ei kuulu kurssin alueeseen.
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento7/)
 - Viikko 8: [videotallenne](https://www.helsinki.fi/en/unitube/video/90b312ce-e73e-4994-9c28-f5fcddc55521),
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento8/)
+- Viikko 9: [videotallenne](https://www.helsinki.fi/en/unitube/video/1d6a3209-d1db-4f43-9114-5e5af9e011d2),
+  [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento9/)
+  (luennon piti Topi Talvitie)
 
 ## Lisämateriaalia
 
