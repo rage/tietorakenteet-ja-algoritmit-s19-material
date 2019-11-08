@@ -140,10 +140,10 @@ tai polkua voi lyhentää loputtomasti.
 
 Tee luokka `OnkoPolkua`, jossa on seuraavat metodit:
 
-* `public OnkoPolkua(int n)`: solmujen määrä annetaan konstruktorissa
-* `public void lisaaKaari(int a, int b, int p)`:
+* `OnkoPolkua(int n)`: solmujen määrä annetaan konstruktorissa
+* `void lisaaKaari(int a, int b, int p)`:
   lisää solmusta `a` solmuun `b` kaaren, jonka pituus on `p`
-* `public boolean tutki()`: palauttaa `true`,
+* `boolean tutki()`: palauttaa `true`,
   jos lyhin polku on olemassa, ja muuten `false`
 
 Rajat:
