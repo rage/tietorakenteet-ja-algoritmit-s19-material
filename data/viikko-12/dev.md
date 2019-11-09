@@ -179,7 +179,7 @@ Tee luokka `Jarjestykset`, jossa on seuraavat metodit:
 Rajat:
 
 - 1 &le; `n` &le; 100
-- ensin metodia `lisaaKaari` kutsutaan enintään 10<sup>5</sup> kertaa
+- ensin metodia `lisaaKaari` kutsutaan enintään 100 kertaa
 - lopuksi kutsutaan kerran metodia `laske`
 - vastaus on aina enintään 10<sup>6</sup>
 
