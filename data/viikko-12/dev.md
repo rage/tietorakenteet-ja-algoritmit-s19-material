@@ -137,9 +137,8 @@ Tee luokka `Suunnat`, jossa on seuraavat metodit:
 * `Suunnat(int n)`: solmujen määrä annetaan konstruktorissa
 * `void lisaaKaari(int a, int b)`:
   lisää kaaren solmusta `a` solmuun `b`
-* `int[] muodosta()`: palauttaa taulukossa jokaisen kaaren suunnan
-  lisäysjärjestyksessä (1 tarkoittaa `a`&rightarrow;`b` ja –1 tarkoittaa `b`&rightarrow;`a`)
-  tai `null`, jos ratkaisua ei ole olemassa
+* `ArrayList<Kaari> muodosta()`: palauttaa kuvauksen kaarten suunnista
+  (tai `null`, jos ratkaisua ei ole olemassa)
 
 Rajat:
 
@@ -147,7 +146,9 @@ Rajat:
 - ensin metodia `lisaaKaari` kutsutaan enintään 10<sup>5</sup> kertaa
 - lopuksi kutsutaan kerran metodia `muodosta()`
 
-Voit muodostaa minkä tahansa kelvollisen ratkaisun.
+Luokka `Kaari` on annettu tehtäväpohjassa.
+Jos ratkaisuja on useita,
+mikä tahansa kelvollinen ratkaisu hyväksytään.
 
 Seuraava koodi esittelee luokan käyttämistä:
 
@@ -156,8 +157,11 @@ Suunnat s = new Suunnat(3);
 s.lisaaKaari(1,2);
 s.lisaaKaari(2,3);
 s.lisaaKaari(3,1);
-System.out.println(Arrays.toString(s.muodosta())); // [1, 1, -1]
+System.out.println(s.muodosta()); // [(1,2), (2,3), (1,3)]
 ```
+
+Tässä tapauksessa suunnatut kaaret ovat
+1&rightarrow;2, 2&rightarrow;3 ja 1&rightarrow;3.
 
 </programming-exercise>
 
