@@ -163,7 +163,7 @@ System.out.println(Arrays.toString(s.muodosta())); // [1, 1, -1]
 
 <programming-exercise name='6. Järjestykset' tmcname='viikko12-Viikko12Tehtava6'>
 
-Annettuna on suunnattu syklitön verkko,
+Annettuna on suunnattu verkko,
 jossa on `n` solmua (numeroitu 1, 2, ..., `n`).
 Tehtäväsi on laskea,
 montako erilaista topologista järjestystä
