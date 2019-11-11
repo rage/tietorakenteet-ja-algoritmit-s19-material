@@ -30,7 +30,7 @@ Rajat:
 - 1 &le; `n` &le; 100
 - 1 &le; `p` &le; 1000
 - ensin metodia `lisaaTie` kutsutaan enintään 10<sup>5</sup> kertaa
-- lopuksi kutsutaan kerran metodia `lyhinReitti`
+- lopuksi kutsutaan kerran metodia `laske`
 
 Seuraava koodi esittelee luokan käyttämistä:
 
@@ -69,7 +69,7 @@ Rajat:
 - 1 &le; `n` &le; 100
 - 1 &le; `p` &le; 1000
 - ensin metodia `lisaaTie` kutsutaan enintään 10<sup>5</sup> kertaa
-- lopuksi kutsutaan kerran metodia `lyhinReitti`
+- lopuksi kutsutaan kerran metodia `muodosta`
 
 Jos lyhimpiä reittejä on useita, voit palauttaa minkä tahansa niistä.
 
