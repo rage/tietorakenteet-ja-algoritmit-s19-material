@@ -193,7 +193,7 @@ Rajat:
 - verkossa saa olla enintään 10<sup>5</sup> kaarta
 
 Luokka `Kaari` on annettu tehtäväpohjassa.
-Saat muodostaa minkä tahansa verkon,
+Voit muodostaa minkä tahansa verkon,
 joka täyttää tehtävänannon vaatimukset.
 
 Seuraava koodi esittelee luokan käyttämistä:
