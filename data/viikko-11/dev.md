@@ -12,9 +12,8 @@ Viikon 11 tehtävien deadline: su 1.12. klo 23:59
 
 Bittimaassa on `n` kaupunkia,
 jotka on numeroitu 1, 2, ..., `n`.
-Kaupunkien välillä on teitä,
-joista kukin yhdistää kaksi kaupunkia
-ja sitä voi kulkea molempiin suuntiin.
+Kaupunkien välillä on kaksisuuntaisia teitä,
+joilla on tietyt pituudet.
 Tehtäväsi on selvittää lyhimmän reitin
 pituus kaupungista `x` kaupunkiin `y`.
 
@@ -51,9 +50,8 @@ System.out.println(l.laske(1,5)); // 12
 
 Bittimaassa on `n` kaupunkia,
 jotka on numeroitu 1, 2, ..., `n`.
-Kaupunkien välillä on teitä,
-joista kukin yhdistää kaksi kaupunkia
-ja sitä voi kulkea molempiin suuntiin.
+Kaupunkien välillä on kaksisuuntaisia teitä,
+joilla on tietyt pituudet.
 Tehtäväsi on muodostaa lyhimmän reitin
 kuvaus kaupungista `x` kaupunkiin `y`.
 
@@ -100,7 +98,10 @@ mukainen Bellmanin ja Fordin algoritmi suorittaa
 tasan `x` kierrosta,
 kun haetaan lyhimpiä polkuja solmusta 1 alkaen.
 
-Huom! Tässä lasketaan mukaan myös viimeinen kierros,
+Huom!
+Algoritmi käsittelee kierroksen aikana kaaret siinä
+järjestyksessä kuin ne ovat listalla.
+Tässä lasketaan mukaan myös viimeinen kierros,
 jossa mikään etäisyys ei enää muutu.
 
 Tee luokka `Kierrokset`, jossa on seuraavat metodit:
@@ -116,7 +117,7 @@ Rajat:
 - verkossa saa olla enintään 10<sup>5</sup> kaarta
 
 Luokka `Kaari` on annettu tehtäväpohjassa.
-Saat muodostaa minkä tahansa verkon,
+Voit muodostaa minkä tahansa verkon,
 joka täyttää tehtävänannon vaatimukset.
 
 Seuraava koodi esittelee luokan käyttämistä:
@@ -136,7 +137,8 @@ ja tehtäväsi on selvittää,
 onko solmusta 1 solmuun `n` olemassa lyhintä polkua.
 Lyhintä polkua ei ole olemassa,
 jos joko solmusta 1 ei pääse solmuun `n`
-tai polkua voi lyhentää loputtomasti.
+tai jotakin polkua solmusta 1 solmuun `n`
+voi lyhentää loputtomasti negatiivisen painoisen kaaren avulla.
 
 Tee luokka `OnkoPolkua`, jossa on seuraavat metodit:
 
