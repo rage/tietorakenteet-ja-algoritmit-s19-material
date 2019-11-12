@@ -8,7 +8,7 @@ Viikon 12 tehtävien deadline: su 8.12. klo 23:59
 
 ## Tehtävät
 
-<quiz id=""></quiz>
+<quiz id="afee3f45-8c19-448a-b3e4-e8903a377261"></quiz>
 
 <programming-exercise name='2. Kurssit' tmcname='viikko12-Viikko12Tehtava2'>
 
