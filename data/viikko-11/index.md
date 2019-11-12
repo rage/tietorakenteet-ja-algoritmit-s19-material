@@ -190,6 +190,7 @@ Tee luokka `MontaPolkua`, jossa on seuraavat metodit:
 Rajat:
 
 - 1 &le; `x` &le; 10<sup>9</sup>
+- jokaisen kaaren pituuden tulee olla välillä 1...1000
 - verkossa saa olla enintään 10<sup>5</sup> kaarta
 
 Luokka `Kaari` on annettu tehtäväpohjassa.
