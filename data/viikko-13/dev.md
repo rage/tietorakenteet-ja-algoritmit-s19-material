@@ -72,6 +72,7 @@ Tee luokka `Kunnostus`, jossa on seuraavat metodit:
 Rajat:
 
 - 1 &le; `n` &le; 10<sup>5</sup>
+- 1 &le; `x` &le; 1000
 - ensin metodia `lisaaTie` kutsutaan enintään 10<sup>5</sup> kertaa
 - sitten metodia `laske` kutsutaan tasan kerran
 
