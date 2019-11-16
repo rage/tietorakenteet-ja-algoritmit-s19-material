@@ -143,36 +143,33 @@ System.out.println(r.laskeHuoneet()); // 2
 
 <programming-exercise name='5. Virittävät puut' tmcname='viikko13-Viikko13Tehtava5'>
 
-Annettuna on suuntaamaton verkko,
-jossa on solmuja ja kaaria.
+Annettuna on verkko,
+jossa on `n` solmua ja jokaisen
+kahden solmun välillä on kaari
+(eli verkko on _täydellinen_).
 Tehtäväsi on laskea,
-montako virittävää puuta verkolle voidaan muodostaa kaarista.
+montako erilaista virittävää puuta
+verkolle voidaan muodostaa siinä olevista kaarista.
 
 Tee luokka `VirittavatPuut`, jossa on seuraavat metodit:
 
-* `VirittavatPuut(int n)`: solmujen määrä annetaan konstruktorissa
-* `void lisaaKaari(int a, int b)`:
-  lisää kaaren solmujen `a` ja `b` välille
-* `int laske()`:
+* `int laske(n)`:
   palauttaa virittävien puiden määrän
 
 Rajat:
 
-- 1 &le; `n` &le; 100
-- ensin metodia `lisaaKaari` kutsutaan enintään 100 kertaa
-- lopuksi metodia `laske` kutsutaan kerran
-- vastaus on enintään 10<sup>6</sup>
+- 1 &le; `n` &le; 8
+
+Huomaa, että metodin laske tulee laskea tulos tyhjästä
+(eli siinä ei saa olla suurten tapausten vastauksia sisällä).
 
 Seuraava koodi esittelee luokan käyttämistä:
 
 ```java
-VirittavatPuut v = new VirittavatPuut(5);
-v.lisaaKaari(1,2);
-v.lisaaKaari(2,3);
-v.lisaaKaari(3,4);
-v.lisaaKaari(1,4);
-v.lisaaKaari(4,5);
-System.out.println(v.laske()); // 4
+VirittavatPuut v = new VirittavatPuut();
+System.out.println(v.laske(2)); // 1
+System.out.println(v.laske(3)); // 3
+System.out.println(v.laske(4)); // 16
 ```
 
 </programming-exercise>
