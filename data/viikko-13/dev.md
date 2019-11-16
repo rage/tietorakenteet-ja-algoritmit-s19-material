@@ -180,7 +180,7 @@ System.out.println(v.laske(4)); // 16
 Tietoverkossa on `n` konetta (numeroitu 1, 2, ..., `n`),
 joiden välillä ei ole alussa yhteyksiä.
 Verkkoon lisätään joka päivä yksi uusi yhteys.
-Tehtäväsi on selvittää konepareista,
+Tehtäväsi on selvittää annetuista konepareista,
 monenko päivän jälkeen niiden välille muodostui yhteys.
 
 Tee luokka `Yhteydet`, jossa on seuraavat metodit:
@@ -207,9 +207,9 @@ y.yhdista(1,3);
 y.yhdista(4,6);
 y.yhdista(2,6);
 y.yhdista(2,3);
-System.out.println(y.tutki(2,3)); 2
-System.out.println(y.tutki(3,5)); -1
-System.out.println(y.tutki(1,6)); 4
+System.out.println(y.tutki(2,3)); // 2
+System.out.println(y.tutki(3,5)); // -1
+System.out.println(y.tutki(1,6)); // 4
 ```
 
 </programming-exercise>
