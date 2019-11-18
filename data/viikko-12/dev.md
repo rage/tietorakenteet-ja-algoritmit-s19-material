@@ -136,7 +136,7 @@ Tee luokka `Suunnat`, jossa on seuraavat metodit:
 
 * `Suunnat(int n)`: solmujen määrä annetaan konstruktorissa
 * `void lisaaKaari(int a, int b)`:
-  lisää kaaren solmusta `a` solmuun `b`
+  lisää kaaren solmujen `a` ja `b` välille
 * `ArrayList<Kaari> muodosta()`: palauttaa kuvauksen kaarten suunnista
   (tai `null`, jos ratkaisua ei ole olemassa)
 
@@ -157,11 +157,11 @@ Suunnat s = new Suunnat(3);
 s.lisaaKaari(1,2);
 s.lisaaKaari(2,3);
 s.lisaaKaari(3,1);
-System.out.println(s.muodosta()); // [(1,2), (2,3), (1,3)]
+System.out.println(s.muodosta()); // [(1,2), (3,2), (3,1)]
 ```
 
 Tässä tapauksessa suunnatut kaaret ovat
-1&rightarrow;2, 2&rightarrow;3 ja 1&rightarrow;3.
+1&rightarrow;2, 3&rightarrow;2 ja 3&rightarrow;1.
 
 </programming-exercise>
 
