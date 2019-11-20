@@ -18,6 +18,9 @@ molempiin suuntiin kahden koneen välillä.
 Tehtäväsi on selvittää, monenko koneen kanssa
 tietty kone voi viestiä.
 
+Huom! Tässä ja vastaavissa tehtävissä koneet voivat viestiä keskenään,
+jos niiden välillä on reitti mahdollisesti muiden koneiden kautta.
+
 Tee luokka `Saavutettavuus`, jossa on seuraavat metodit:
 
 * `Saavutettavuus(int n)`: koneiden määrä annetaan konstruktorissa
