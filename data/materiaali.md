@@ -38,6 +38,8 @@ Luvussa 15 on NP-ongelmiin liittyvää tietoa, joka ei kuulu kurssin alueeseen.
   (luennon piti Topi Talvitie)
 - Viikko 10: [videotallenne](https://www.helsinki.fi/en/unitube/video/8247de06-9c56-4956-9529-5d77e6ab86aa),
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento10/)
+- Viikko 11: [videotallenne](https://www.helsinki.fi/en/unitube/video/10efddfc-7558-4cd6-ad60-698ed59b5d29),
+  [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento11/)
 
 ## Lisämateriaalia
 
