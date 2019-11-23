@@ -153,7 +153,7 @@ verkolle voidaan muodostaa siinä olevista kaarista.
 
 Tee luokka `VirittavatPuut`, jossa on seuraavat metodit:
 
-* `int laske(n)`:
+* `int laske(int n)`:
   palauttaa virittävien puiden määrän
 
 Rajat:
