@@ -124,9 +124,9 @@ Rajat:
 - metodia `teeLattia` kutsutaan enintään 10<sup>5</sup> kertaa
 - metodia `laskeHuoneet` kutsutaan enintään 10<sup>5</sup> kertaa
 
-**Huom! Tehtävän testeissä oli aluksi virhe, joka on nyt korjattu.
+**Huom! Tehtävän testeissä oli virhe, joka on nyt korjattu.
 Jos saat väärän tuloksen testeissä 6 ja 10,
-varmistathan, että sinulla on käytössäsi uusin tehtäväpohja.**
+varmistathan, että käytössäsi on uusin tehtäväpohja.**
 
 Seuraava koodi esittelee luokan käyttämistä:
 
