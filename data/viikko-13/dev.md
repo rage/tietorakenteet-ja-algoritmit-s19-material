@@ -120,7 +120,7 @@ Tee luokka `Ruudukko`, jossa on seuraavat metodit:
 Rajat:
 
 - 1 &le; `n` &le; 500
-- 1 &le; `x`, `y` &le; `n`
+- 1 &le; `y`, `x` &le; `n`
 - metodia `teeLattia` kutsutaan enintään 10<sup>5</sup> kertaa
 - metodia `laskeHuoneet` kutsutaan enintään 10<sup>5</sup> kertaa
 
@@ -160,7 +160,7 @@ Rajat:
 
 - 1 &le; `n` &le; 8
 
-Huomaa, että metodin laske tulee laskea tulos tyhjästä
+Huomaa, että metodin `laske` tulee laskea tulos tyhjästä
 (eli siinä ei saa olla suurten tapausten vastauksia sisällä).
 
 Seuraava koodi esittelee luokan käyttämistä:
