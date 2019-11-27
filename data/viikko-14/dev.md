@@ -134,39 +134,7 @@ System.out.println(p.muodosta()); // [1->2, 5->3->4]
 
 </programming-exercise>
 
-<programming-exercise name='5. Täydennyspolut' tmcname='viikko14-Viikko14Tehtava5'>
-
-Tehtäväsi on muodostaa suunnattu verkko,
-jossa on solmut 1, 2, ..., 100
-ja syvyyshakua käyttävä Ford-Fulkersonin algoritmi
-muodostaa tarkalleen `x` täydennyspolkua,
-kun etsittävänä on maksimivirtaus solmusta 1 solmuun 100.
-
-Huom! Solmun naapurit ovat vieruslistoissa siinä järjestyksessä
-kuin kaaret ilmoitetaan.
-
-Tee luokka `Taydennyspolut`, jossa on seuraavat metodit:
-
-* `ArrayList<Kaari> muodosta(int x)`:
-  palauttaa tehtävänannon mukaisen verkon
-
-Rajat:
-
-- 1 &le; `n` &le; 10<sup>6</sup>
-- verkossa saa olla enintään 1000 kaarta
-- jokaisen kaaren painon tulee olla välillä 1...10<sup>6</sup>
-
-Luokka `Kaari` on annettu tehtäväpohjassa.
-Voit muodostaa minkä tahansa kelvollisen ratkaisun.
-
-Seuraava koodi esittelee luokan käyttämistä:
-
-```java
-Taydennyspolut t = new Taydennyspolut();
-System.out.println(t.muodosta(2)); // [(1,2,1), (2,100,1), (1,3,1), (3,100,1)]
-```
-
-</programming-exercise>
+<quiz id="b2de3e4f-8e70-41ee-9e9e-ec724b46c37a"></quiz>
 
 <programming-exercise name='6. Ruudukko' tmcname='viikko14-Viikko14Tehtava6'>
 
