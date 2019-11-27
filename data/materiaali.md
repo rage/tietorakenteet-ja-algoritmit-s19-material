@@ -40,6 +40,9 @@ Luvussa 15 on NP-ongelmiin liittyvää tietoa, joka ei kuulu kurssin alueeseen.
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento10/)
 - Viikko 11: [videotallenne](https://www.helsinki.fi/en/unitube/video/10efddfc-7558-4cd6-ad60-698ed59b5d29),
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento11/)
+- Viikko 12: <s>videotallenne</s>,
+  [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento12/)
+  (luentosalin videointijärjestelmä ei toiminut)
 
 ## Lisämateriaalia
 
