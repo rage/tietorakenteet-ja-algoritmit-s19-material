@@ -139,7 +139,7 @@ System.out.println(p.muodosta()); // [1->2, 5->3->4]
 <programming-exercise name='6. Ruudukko' tmcname='viikko14-Viikko14Tehtava6'>
 
 Annettuna on `n`x`n`-ruudukko,
-jonka jokaisen ruutu on valkoinen (0) tai musta (1).
+jonka jokainen ruutu on valkoinen (0) tai musta (1).
 Jokaisella siirrolla voit muuttaa tietyn
 vaaka- tai pystyrivin kaikki ruudut valkoisiksi.
 Mikä on pienin määrä siirtoja,
