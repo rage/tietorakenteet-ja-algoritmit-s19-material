@@ -52,6 +52,7 @@ Tästä lisämateriaalista voi olla sinulle hyötyä kurssin aikana:
 - [Kuinka suunnitella algoritmeja?](/algoritmien-suunnittelu)
 - [Rekursio käytännössä](/rekursio-kaytannossa)
 - [Tehokkuusvertailun toteuttaminen](/tehokkuusvertailu)
+- [Bittien käsittely](/bittien-kasittely)
 
 ## Muut kirjat
 
