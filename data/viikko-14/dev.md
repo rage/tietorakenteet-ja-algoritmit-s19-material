@@ -52,9 +52,8 @@ System.out.println(m.laske()); // 7
 <programming-exercise name='3. Tanssiaiset' tmcname='viikko14-Viikko14Tehtava3'>
 
 Kumpulan ja Viikin opiskelijat järjestävät tanssiaiset.
-Kumpulasta tulee `n` osallistujaa
-ja Viikistä tulee `m` osallistujaa
-(numeroitu 1, 2, 3, ...).
+Kumpulasta tulee `n` osallistujaa (numeroitu 1, 2, ..., `n`)
+ja Viikistä tulee `m` osallistujaa (numeroitu 1, 2, ..., `m`).
 Tanssiparin muodostavat Kumpulan ja Viikin opiskelija,
 ja jokainen opiskelija voi kuulua enintään yhteen pariin.
 
