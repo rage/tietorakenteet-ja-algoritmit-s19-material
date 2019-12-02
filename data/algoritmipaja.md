@@ -19,3 +19,4 @@ ja jolta voit kysyä neuvoa.
 Poikkeusaikataulut:
 
 - ma 2.9. ei ole pajaa yliopiston avajaisten vuoksi
+- pe 6.12. ei ole pajaa itsenäisyyspäivän vuoksi
