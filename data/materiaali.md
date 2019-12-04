@@ -43,6 +43,9 @@ Luvussa 15 on NP-ongelmiin liittyvää tietoa, joka ei kuulu kurssin alueeseen.
 - Viikko 12: <s>videotallenne</s>,
   [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento12/)
   (luentosalin videointijärjestelmä ei toiminut)
+- Viikko 13: <s>videotallenne</s>,
+  [tiedostot](https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento13/)
+  (luentosalin videointijärjestelmä ei toiminut)
 
 ## Lisämateriaalia
 
