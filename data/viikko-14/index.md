@@ -29,7 +29,7 @@ Tee luokka `Maksimivirtaus`, jossa on seuraavat metodit:
 
 Rajat:
 
-- 1 &le; `n` &le; 100
+- 2 &le; `n` &le; 100
 - 1 &le; `p` &le; 10<sup>6</sup>
 - ensin metodia `lisaaKaari` kutsutaan enintään 1000 kertaa
 - sitten metodia `laske` kutsutaan tasan kerran
