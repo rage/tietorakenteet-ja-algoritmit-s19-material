@@ -110,6 +110,10 @@ var content2 = [
     title: "Algoritmipaja",
     path: "/algoritmipaja",
   },
+  {
+    title: "Loppuraportti",
+    path: "/loppuraportti",
+  },
   { separator: true },
 ]
 
